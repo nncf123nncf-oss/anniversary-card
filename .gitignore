@@ -1,0 +1,7 @@
+# 撮影ハーネスの一時コピー置き場（tools/shoot.py が作って消す）
+_shot/
+
+# 検証・撮影ハーネスは運用リポジトリ側に置く。
+# publish_day.py の preflight は git ls-files の .html/.htm 全件に素性表記フッタを要求するため、
+# フッタを持たないハーネスHTMLをここに入れると公開が中止される。
+_test/
